@@ -1,0 +1,188 @@
+.nav-list {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.nav-list__item {
+  padding: 21px 122px;
+  font-weight: bold;
+  background-color: #81b3d2;
+  border-bottom: 3px solid #9ac2db;
+  list-style: none;
+}
+.nav-list__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.page-main {
+  margin-top: -27px;
+}
+.page-main__title-photo {
+  margin-top: 38px;
+  margin-bottom: 38px;
+  font-size: 18px;
+}
+.page-main__text {
+  margin-bottom: 33px;
+}
+.main-slogan {
+  background-image: url('../img/text-sedona-index.svg');
+  background-image: url('../img/text-sedona.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.advantages-pics {
+  padding-left: 0;
+  margin-top: 40px;
+}
+.advantages-pics__item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  list-style: none;
+}
+.advantages-bonus {
+  padding-left: 0;
+  margin-top: 40px;
+}
+.advantages-bonus__item {
+  list-style: none;
+}
+.advantages-no-pics {
+  padding-left: 0;
+}
+.advantages-no-pics__item--grey {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 0;
+  background-color: #eeeeee;
+  list-style: none;
+}
+.booking {
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+.booking__text {
+  margin-bottom: 42px;
+}
+.booking__location {
+  margin-top: 49px;
+}
+.album {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.album__item {
+  padding-top: 23px;
+  padding-bottom: 25px;
+  border-top: 2px solid #e5e5e5;
+  list-style: none;
+}
+.album__author {
+  text-transform: none;
+}
+.promo {
+  margin-top: 40px;
+}
+.reviews {
+  margin-top: 19px;
+  font-weight: bold;
+}
+.reviews__title {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.reviews__text,
+.reviews__radio {
+  border-bottom: 2px solid #f2f2f2;
+}
+.reviews-info {
+  border-bottom: 2px solid #f2f2f2;
+}
+.reviews-info__item-input,
+.reviews-info__tel,
+.reviews-info__mail {
+  width: 230px;
+  height: 60px;
+  padding-left: 20px;
+  margin-left: 16px;
+}
+.reviews-impression__item {
+  list-style: none;
+}
+.reviews-impression__item-label,
+.reviews-impression__item-checkbox {
+  text-transform: none;
+}
+.showplaces {
+  border-bottom: 2px solid #f2f2f2;
+}
+.showplaces-list__item {
+  list-style: none;
+}
+.feedback__user-text {
+  margin-bottom: 52px;
+}
+.button {
+  padding: 21px 46px;
+  font-size: 21px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  text-decoration: none;
+}
+.page-footer {
+  margin-top: 41px;
+}
+.social__link--twitter {
+  background-color: #81b3d2;
+  background-image: url('../img/icon-twitter.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.social__link--facebook {
+  background-color: #81b3d2;
+  background-image: url('../img/icon-facebook.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.social__link--youtube {
+  background-color: #81b3d2;
+  background-image: url('../img/icon-youtube.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.social-list__item {
+  list-style: none;
+}
+.developer__link {
+  background-image: url('../img/htmlacademy.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", "Helvetica", serif;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
