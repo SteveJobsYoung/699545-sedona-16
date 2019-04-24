@@ -144,13 +144,6 @@
     display: none;
   }
 }
-@media (min-width: 1200px) {
-  .nav-list {
-    -webkit-box-pack: none;
-        -ms-flex-pack: none;
-            justify-content: none;
-  }
-}
 .page-main__name {
   width: 280px;
   margin-left: 25px;
@@ -204,32 +197,32 @@
 }
 .main-slogan {
   min-width: 320px;
-  height: 392px;
+  min-height: 392px;
   background: url("../img/bg-intro-triangle-mobile.svg") 0 363px no-repeat, url("../img/bg-back-mobile@1x.jpg") 0 0 no-repeat;
 }
 .main-slogan--compact {
-  height: 161px;
+  min-height: 161px;
   background: url("../img/bg-intro-triangle-mobile.svg") 0 135px no-repeat, url("../img/bg-back-mobile@1x.jpg") 0 bottom no-repeat;
 }
 @media (min-width: 768px) {
   .main-slogan {
     min-width: 768px;
-    height: 521px;
+    min-height: 521px;
     background: url("../img/bg-intro-triangle-tablet.svg") 0 462px no-repeat, url("../img/bg-back-tablet@1x.jpg") 0 0 no-repeat;
   }
   .main-slogan--compact {
-    height: 292px;
+    min-height: 292px;
     background: url("../img/bg-intro-triangle-tablet.svg") 0 235px no-repeat, url("../img/bg-back-tablet@1x.jpg") 0 bottom no-repeat;
   }
 }
 @media (min-width: 1200px) {
   .main-slogan {
     min-width: 1200px;
-    height: 521px;
+    min-height: 521px;
     background: url("../img/bg-intro-triangle-desktop.svg") 0 462px no-repeat, url("../img/bg-back-desktop@1x.jpg") 0 0 no-repeat;
   }
   .main-slogan--compact {
-    height: 302px;
+    min-height: 302px;
     background: url("../img/bg-intro-triangle-desktop.svg") 0 245px no-repeat, url("../img/bg-back-desktop@1x.jpg") 0 bottom no-repeat;
   }
 }
@@ -296,7 +289,7 @@
 .advantages-pics__photo {
   display: block;
   padding-bottom: 0;
-  width: 320px;
+  min-width: 320px;
   height: 260px;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -551,7 +544,7 @@
 .booking__location {
   margin-top: 49px;
   margin-bottom: 36px;
-  width: 320px;
+  min-width: 320px;
   height: 351px;
   background-image: url("../img/bg-map-mobile@1x.jpg");
   background-repeat: no-repeat;
@@ -588,7 +581,7 @@
     margin-bottom: 45px;
   }
   .booking__location {
-    width: 1200px;
+    min-width: 1200px;
     background-image: url("../img/bg-map-desktop@1x.jpg");
   }
 }
@@ -650,7 +643,7 @@
   }
   .album__item {
     position: relative;
-    width: 400px;
+    width: 33.33%;
   }
 }
 .photo-card__author {
@@ -726,10 +719,9 @@
     left: 0;
     right: 0;
     margin: 0;
-    padding: 0 20px;
+    padding: 0 20px 10px 20px;
     color: #ffffff;
-    background-color: rgba(49, 47, 31, 0.3);
-    opacity: 0.8;
+    background-color: rgba(49, 47, 31, 0.6);
   }
   .photo-card__svg {
     fill: #ffffff;
@@ -904,7 +896,6 @@
   }
   .video__icons {
     left: 200px;
-    bottom: 5px;
   }
   .video__scale {
     left: 270px;
@@ -918,7 +909,8 @@
 }
 .reviews__title {
   display: block;
-  margin-bottom: 28px;
+  margin-top: 22px;
+  margin-bottom: 25px;
   font-size: 18px;
 }
 .reviews__text {
@@ -927,6 +919,7 @@
   margin-right: auto;
   margin-bottom: 0;
   padding-bottom: 17px;
+  font-weight: normal;
   line-height: 24px;
 }
 .reviews__text,
@@ -937,6 +930,7 @@
   margin-top: 22px;
 }
 .reviews-info {
+  padding-bottom: 18px;
   border-bottom: 2px solid #f2f2f2;
 }
 .reviews-info__section {
@@ -1043,7 +1037,7 @@
 .input-general {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 18px;
+  margin-bottom: 11px;
   width: 280px;
 }
 .input-general--personal {
@@ -1053,18 +1047,16 @@
 }
 .input-general__item-input {
   height: 60px;
-  width: 100%;
   padding: 0;
   padding-left: 22px;
-  margin-left: 16px;
-  margin-bottom: 5px;
+  padding-right: 70px;
   font-weight: bold;
   font-size: 17px;
   background-color: #f2f2f2;
   border: none;
 }
 .input-general__item-label {
-  margin-top: 15px;
+  margin-top: 25px;
   font-weight: 200;
 }
 .checkbox-general__label {
@@ -1073,9 +1065,6 @@
 .page-footer__hashtag {
   font-size: 21px;
   line-height: 26px;
-}
-.page-footer__social {
-  width: 100%;
 }
 @media (min-width: 768px) {
   .page-footer {
